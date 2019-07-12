@@ -1,0 +1,10 @@
+name: on_hello_event1
+pack: dd-stackstrom-packs-hello-world
+description: Sample rule firing on hello_st2.event1.
+enabled: true
+trigger:
+    type: dd-stackstrom-packs-hello-world.event1
+action:
+    ref: dd-stackstrom-packs-hello-world.greet
+    parameters:
+        greeting: Yo

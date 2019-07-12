@@ -1,0 +1,15 @@
+ref: dd-stackstrom-packs-hello-world
+name: Hello StackStrom
+description: Simple pack containing examples of sensor, rule, and action.
+keywords:
+    - example
+    - test
+version: 1.0.0
+python_versions:
+  - "2"
+  - "3"
+author: Nihilent Analytics/ pradipta , Ltd.
+email: info@stackstorm.com
+contributors: 
+  - "Pradipta Kumar Das <pradipta.das115@gmail.com>"
+  - "Pradipta Kumar Das <pradipta.das@nihilentanalytics.com>"

@@ -1,0 +1,6 @@
+name: greet
+pack: dd-stackstrom-packs-hello-world
+description: "Greet StackStorm"
+action_ref: "dd-stackstrom-packs-hello-world.greet"
+formats:
+    "greet {{greeting}}"
